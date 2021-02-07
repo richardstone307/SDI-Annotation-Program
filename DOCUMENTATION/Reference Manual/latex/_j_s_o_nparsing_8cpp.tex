@@ -1,0 +1,54 @@
+\hypertarget{_j_s_o_nparsing_8cpp}{}\doxysection{J\+S\+O\+Nparsing.\+cpp File Reference}
+\label{_j_s_o_nparsing_8cpp}\index{JSONparsing.cpp@{JSONparsing.cpp}}
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}json.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}G\+U\+I.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Classlist.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}J\+S\+O\+Nparsing.\+h\char`\"{}}\newline
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{_j_s_o_nparsing_8cpp_ab701e3ac61a85b337ec5c1abaad6742d}{json}} = nlohmann\+::json
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{_j_s_o_nparsing_8cpp_a373b424cd2b31dd15d4701d635d540e0}{System\+To\+Std\+String}} (String$^\wedge$ input\+String)
+\item 
+void \mbox{\hyperlink{_j_s_o_nparsing_8cpp_a00fa6daa90804297daef090f8500939d}{Save\+Json}} (string file\+Path)
+\item 
+void \mbox{\hyperlink{_j_s_o_nparsing_8cpp_ae0134bddb8c3a523f90660a73e70f9ac}{Load\+Json}} (string file\+Path)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{_j_s_o_nparsing_8cpp_ab701e3ac61a85b337ec5c1abaad6742d}\label{_j_s_o_nparsing_8cpp_ab701e3ac61a85b337ec5c1abaad6742d}} 
+\index{JSONparsing.cpp@{JSONparsing.cpp}!json@{json}}
+\index{json@{json}!JSONparsing.cpp@{JSONparsing.cpp}}
+\doxysubsubsection{\texorpdfstring{json}{json}}
+{\footnotesize\ttfamily using \mbox{\hyperlink{_j_s_o_nparsing_8cpp_ab701e3ac61a85b337ec5c1abaad6742d}{json}} =  nlohmann\+::json}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_j_s_o_nparsing_8cpp_ae0134bddb8c3a523f90660a73e70f9ac}\label{_j_s_o_nparsing_8cpp_ae0134bddb8c3a523f90660a73e70f9ac}} 
+\index{JSONparsing.cpp@{JSONparsing.cpp}!LoadJson@{LoadJson}}
+\index{LoadJson@{LoadJson}!JSONparsing.cpp@{JSONparsing.cpp}}
+\doxysubsubsection{\texorpdfstring{LoadJson()}{LoadJson()}}
+{\footnotesize\ttfamily void Load\+Json (\begin{DoxyParamCaption}\item[{string}]{file\+Path }\end{DoxyParamCaption})}
+
+Loads a J\+S\+ON / .annotations file and parses the data. \mbox{\Hypertarget{_j_s_o_nparsing_8cpp_a00fa6daa90804297daef090f8500939d}\label{_j_s_o_nparsing_8cpp_a00fa6daa90804297daef090f8500939d}} 
+\index{JSONparsing.cpp@{JSONparsing.cpp}!SaveJson@{SaveJson}}
+\index{SaveJson@{SaveJson}!JSONparsing.cpp@{JSONparsing.cpp}}
+\doxysubsubsection{\texorpdfstring{SaveJson()}{SaveJson()}}
+{\footnotesize\ttfamily void Save\+Json (\begin{DoxyParamCaption}\item[{string}]{file\+Path }\end{DoxyParamCaption})}
+
+Formats and exports the current annotation data as J\+S\+ON. \mbox{\Hypertarget{_j_s_o_nparsing_8cpp_a373b424cd2b31dd15d4701d635d540e0}\label{_j_s_o_nparsing_8cpp_a373b424cd2b31dd15d4701d635d540e0}} 
+\index{JSONparsing.cpp@{JSONparsing.cpp}!SystemToStdString@{SystemToStdString}}
+\index{SystemToStdString@{SystemToStdString}!JSONparsing.cpp@{JSONparsing.cpp}}
+\doxysubsubsection{\texorpdfstring{SystemToStdString()}{SystemToStdString()}}
+{\footnotesize\ttfamily string System\+To\+Std\+String (\begin{DoxyParamCaption}\item[{String$^\wedge$}]{input\+String }\end{DoxyParamCaption})}
+
+Converts system string to std\+::string. 

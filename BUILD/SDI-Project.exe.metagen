@@ -1,0 +1,133 @@
+  SDIProject.SRC.MainWindow.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly SDI-Project, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.ComponentModel.Composition, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.ComponentModel.Composition.Registration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Windows.Input.Manipulations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Windows.Presentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Annotation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 annotationID : Public
+    System.String label : Public
+    System.ValueType creationDate DateTime IsBoxed : Public
+  Methods:
+    setLabel(String): PrivateScope, Public, HideBySig
+    deleteAnnotation(): PrivateScope, Public, HideBySig
+    copyAnnotation(): PrivateScope, Public, HideBySig
+Class CircularAnnotation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Annotation
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.ValueType origin Point IsBoxed : Public
+    Int32 radius : Public
+Class PolygonalAnnotation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Annotation
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[System.Int32] vertices : Public
+Class AnnotationFile: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String annotationFileID : Public
+    System.Collections.Generic.List`1[PolygonalAnnotation] annotationsPolygonal : Public
+    System.Collections.Generic.List`1[CircularAnnotation] annotationsCircular : Public
+    Int32 numericalIDPool : Public
+  Methods:
+    createCircularAnnotation(String): PrivateScope, Public, HideBySig
+    createPolygonalAnnotation(String, List`1): PrivateScope, Public, HideBySig
+Class ImageFile: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Drawing.Image imageID : Public
+    System.String displayFileName : Public
+    System.Collections.Generic.List`1[AnnotationFile] annotationFiles : Public
+    System.ValueType dimensions Point IsBoxed : Public
+    System.ValueType creationDate DateTime IsBoxed : Public
+  Methods:
+    replaceImage(Image): PrivateScope, Public, HideBySig
+    createAnnotationFile(): PrivateScope, Public, HideBySig
+    checkCompatibility(): PrivateScope, Public, HideBySig
+Class GUI: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 drawnImage : Public, Static
+    System.Collections.Generic.List`1[ImageFile] loadedImages : Public, Static
+    System.Collections.Generic.List`1[Annotation] annotations : Public, Static
+    System.ValueType mouseDownLocation Point IsBoxed : Public, Static
+    Int32 xCornerSelected : Public, Static
+    Int32 yCornerSelected : Public, Static
+    Int32 annotationToResize : Public, Static
+    System.Collections.Generic.List`1[System.Int32] imageIndices : Public, Static
+    System.Collections.Generic.List`1[System.Int32] labelIndices : Public, Static
+    System.Collections.Generic.List`1[System.String] labelNames : Public, Static
+    System.String workingFolderPath : Public, Static
+    System.String labelFile : Public, Static
+    System.String imageSearchTerm : Public, Static
+    System.String labelSearchTerm : Public, Static
+    System.Drawing.Graphics boxCanvas : Public, Static
+    System.String annotationFilePath : Public, Static
+    Single imageScale : Public, Static
+    Int32 xOffset : Public, Static
+    Int32 yOffset : Public, Static
+  Methods:
+    LoadImageToList(ImageFile): PrivateScope, Public, Static, HideBySig
+    LoadImageToCanvas(Int32): PrivateScope, Public, Static, HideBySig
+    CreateLabel(String): PrivateScope, Public, Static, HideBySig
+    DrawImage(): PrivateScope, Public, Static, HideBySig
+Class imageData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Drawing.Bitmap srcImage : Public
+    System.Collections.Generic.List`1[System.Collections.Generic.List`1[System.Int32]] boxList : Public
+    System.Collections.Generic.List`1[System.String] boxNameList : Public
+    System.Collections.Generic.List`1[System.String] labelList : Public
+    System.String fileName : Public
+Class GlobalList.GlobalClass: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[imageData] loadedImages IsByValue : Public, Static, InitOnly
+    System.String imageKeyword : Public, Static
+    System.String labelKeyword : Public, Static
+    System.String boxKeyword : Public, Static
+Class SDIMaster.MainWindow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.PictureBox imageDisplay : Public
+    System.Windows.Forms.ListBox GroupBox_Images : Public
+    System.Windows.Forms.ListBox GroupBox_Classes : Public
+    System.Windows.Forms.ListBox GroupBox_Annotations : Public

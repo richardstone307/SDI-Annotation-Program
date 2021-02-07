@@ -1,0 +1,36 @@
+\hypertarget{_sort_and_search_8cpp}{}\doxysection{Sort\+And\+Search.\+cpp File Reference}
+\label{_sort_and_search_8cpp}\index{SortAndSearch.cpp@{SortAndSearch.cpp}}
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include \char`\"{}G\+U\+I.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Image\+File.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ String$^\wedge$$>$ $^\wedge$ \mbox{\hyperlink{_sort_and_search_8cpp_a381c3602350002744c42387ce9e875d9}{Filter\+List}} (List$<$ String$^\wedge$$>$$^\wedge$ string\+List, String$^\wedge$ filter\+Term)
+\item 
+List$<$ String$^\wedge$$>$ $^\wedge$ \mbox{\hyperlink{_sort_and_search_8cpp_a07b4dea2299e93e1df89bfcab9bb171f}{Sort\+List}} (List$<$ String$^\wedge$$>$$^\wedge$ string\+List, int order)
+\item 
+List$<$ String$^\wedge$$>$ $^\wedge$ \mbox{\hyperlink{_sort_and_search_8cpp_a71d4c6b39c02e77a47361ce2cc99cba9}{Filter\+And\+Sort}} (List$<$ String$^\wedge$$>$$^\wedge$ string\+List, String$^\wedge$ filter\+Term, int order)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_sort_and_search_8cpp_a71d4c6b39c02e77a47361ce2cc99cba9}\label{_sort_and_search_8cpp_a71d4c6b39c02e77a47361ce2cc99cba9}} 
+\index{SortAndSearch.cpp@{SortAndSearch.cpp}!FilterAndSort@{FilterAndSort}}
+\index{FilterAndSort@{FilterAndSort}!SortAndSearch.cpp@{SortAndSearch.cpp}}
+\doxysubsubsection{\texorpdfstring{FilterAndSort()}{FilterAndSort()}}
+{\footnotesize\ttfamily List$<$String$^\wedge$$>$ $^\wedge$ Filter\+And\+Sort (\begin{DoxyParamCaption}\item[{List$<$ String$^\wedge$$>$$^\wedge$}]{string\+List,  }\item[{String$^\wedge$}]{filter\+Term,  }\item[{int}]{order }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_sort_and_search_8cpp_a381c3602350002744c42387ce9e875d9}\label{_sort_and_search_8cpp_a381c3602350002744c42387ce9e875d9}} 
+\index{SortAndSearch.cpp@{SortAndSearch.cpp}!FilterList@{FilterList}}
+\index{FilterList@{FilterList}!SortAndSearch.cpp@{SortAndSearch.cpp}}
+\doxysubsubsection{\texorpdfstring{FilterList()}{FilterList()}}
+{\footnotesize\ttfamily List$<$String$^\wedge$$>$ $^\wedge$ Filter\+List (\begin{DoxyParamCaption}\item[{List$<$ String$^\wedge$$>$$^\wedge$}]{string\+List,  }\item[{String$^\wedge$}]{filter\+Term }\end{DoxyParamCaption})}
+
+Basic search functionality using a linear search. Matches the search criteria to whatever the user enters. This does not have to be a complete search term, and will filter the list as the user types For instance, if a user types \textquotesingle{}Kit\textquotesingle{} when searching for \textquotesingle{}Kittens.\+jpg\textquotesingle{}, it will filter out irrelevant items in the list. Search critera may also be in the middle, for instance \textquotesingle{}tte\textquotesingle{} will also filter down to \textquotesingle{}Kittens.\+jpg\textquotesingle{}. \mbox{\Hypertarget{_sort_and_search_8cpp_a07b4dea2299e93e1df89bfcab9bb171f}\label{_sort_and_search_8cpp_a07b4dea2299e93e1df89bfcab9bb171f}} 
+\index{SortAndSearch.cpp@{SortAndSearch.cpp}!SortList@{SortList}}
+\index{SortList@{SortList}!SortAndSearch.cpp@{SortAndSearch.cpp}}
+\doxysubsubsection{\texorpdfstring{SortList()}{SortList()}}
+{\footnotesize\ttfamily List$<$String$^\wedge$$>$ $^\wedge$ Sort\+List (\begin{DoxyParamCaption}\item[{List$<$ String$^\wedge$$>$$^\wedge$}]{string\+List,  }\item[{int}]{order }\end{DoxyParamCaption})}
+
+Basic sort functionality using a bubble sort. Sorts all items in the list by name with the ability to be applied inversely, so the function will sort by name both ascending and descending. 

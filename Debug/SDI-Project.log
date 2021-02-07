@@ -1,0 +1,21 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(453,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  JSONparsing.cpp
+  Main.cpp
+C:\Users\irich\Documents\SDI\SDI-Project\SRC\MainWindow.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\irich\Documents\SDI\SDI-Project\SRC\GlobalImageList.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  The contents of <filesystem> are available only with C++17 or later.
+  MainWindow.cpp
+C:\Users\irich\Documents\SDI\SDI-Project\SRC\GlobalImageList.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\irich\Documents\SDI\SDI-Project\SRC\MainWindow.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\irich\Documents\SDI\SDI-Project\SRC\MainWindow.cpp(312,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\irich\Documents\SDI\SDI-Project\SRC\MainWindow.cpp(316,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  PositionCalculation.cpp
+C:\Users\irich\Documents\SDI\SDI-Project\SRC\PositionCalculation.cpp(12,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\irich\Documents\SDI\SDI-Project\SRC\PositionCalculation.cpp(19,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  ResizeAnnotation.cpp
+  Generating Code...
+C:\Users\irich\Documents\SDI\SDI-Project\SRC\MainWindow.cpp(50): warning C4715: 'SDIMaster::MainWindow::SaveFile': not all control paths return a value
+C:\Users\irich\Documents\SDI\SDI-Project\SRC\MainWindow.cpp(132): warning C4715: 'SDIMaster::MainWindow::BrowseFile': not all control paths return a value
+  JSONparsing.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  SDI-Project.vcxproj -> C:\Users\irich\Documents\SDI\SDI-Project\.\BUILD\SDI-Project.exe

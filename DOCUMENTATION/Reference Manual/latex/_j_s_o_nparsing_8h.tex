@@ -1,0 +1,37 @@
+\hypertarget{_j_s_o_nparsing_8h}{}\doxysection{J\+S\+O\+Nparsing.\+h File Reference}
+\label{_j_s_o_nparsing_8h}\index{JSONparsing.h@{JSONparsing.h}}
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include \char`\"{}json.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}G\+U\+I.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{_j_s_o_nparsing_8h_a5bdc187e8b7e8d18f804751587e70e1c}{System\+To\+Std\+String}} (String$^\wedge$)
+\item 
+void \mbox{\hyperlink{_j_s_o_nparsing_8h_ad8cbeec4d187be80b4f9d254abeab940}{Save\+Json}} (string)
+\item 
+void \mbox{\hyperlink{_j_s_o_nparsing_8h_ad8a2118f860979a5a7f914ab5bca46a1}{Load\+Json}} (string)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_j_s_o_nparsing_8h_ad8a2118f860979a5a7f914ab5bca46a1}\label{_j_s_o_nparsing_8h_ad8a2118f860979a5a7f914ab5bca46a1}} 
+\index{JSONparsing.h@{JSONparsing.h}!LoadJson@{LoadJson}}
+\index{LoadJson@{LoadJson}!JSONparsing.h@{JSONparsing.h}}
+\doxysubsubsection{\texorpdfstring{LoadJson()}{LoadJson()}}
+{\footnotesize\ttfamily void Load\+Json (\begin{DoxyParamCaption}\item[{string}]{file\+Path }\end{DoxyParamCaption})}
+
+Loads a J\+S\+ON / .annotations file and parses the data. \mbox{\Hypertarget{_j_s_o_nparsing_8h_ad8cbeec4d187be80b4f9d254abeab940}\label{_j_s_o_nparsing_8h_ad8cbeec4d187be80b4f9d254abeab940}} 
+\index{JSONparsing.h@{JSONparsing.h}!SaveJson@{SaveJson}}
+\index{SaveJson@{SaveJson}!JSONparsing.h@{JSONparsing.h}}
+\doxysubsubsection{\texorpdfstring{SaveJson()}{SaveJson()}}
+{\footnotesize\ttfamily void Save\+Json (\begin{DoxyParamCaption}\item[{string}]{file\+Path }\end{DoxyParamCaption})}
+
+Formats and exports the current annotation data as J\+S\+ON. \mbox{\Hypertarget{_j_s_o_nparsing_8h_a5bdc187e8b7e8d18f804751587e70e1c}\label{_j_s_o_nparsing_8h_a5bdc187e8b7e8d18f804751587e70e1c}} 
+\index{JSONparsing.h@{JSONparsing.h}!SystemToStdString@{SystemToStdString}}
+\index{SystemToStdString@{SystemToStdString}!JSONparsing.h@{JSONparsing.h}}
+\doxysubsubsection{\texorpdfstring{SystemToStdString()}{SystemToStdString()}}
+{\footnotesize\ttfamily string System\+To\+Std\+String (\begin{DoxyParamCaption}\item[{String$^\wedge$}]{input\+String }\end{DoxyParamCaption})}
+
+Converts system string to std\+::string. 

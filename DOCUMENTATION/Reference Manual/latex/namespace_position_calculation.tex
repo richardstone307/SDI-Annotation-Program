@@ -1,0 +1,41 @@
+\hypertarget{namespace_position_calculation}{}\doxysection{Position\+Calculation Namespace Reference}
+\label{namespace_position_calculation}\index{PositionCalculation@{PositionCalculation}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{namespace_position_calculation_a92b23371ea8cc4df3beb145ffd1d40da}{Calculate\+Pos}} (int, int, float)
+\begin{DoxyCompactList}\small\item\em Calculate point relative to image, for rendering. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{namespace_position_calculation_abac8caae3e9fbe5e020f056ea2c9e879}{Calculate\+Pos\+Inverse}} (int, int, float)
+\begin{DoxyCompactList}\small\item\em Calculate point relative to image, for placement. \end{DoxyCompactList}\item 
+List$<$ int $>$ $^\wedge$ \mbox{\hyperlink{namespace_position_calculation_a45975dfd68049df14a3de8c686e8c4e6}{Reorder\+Vertices}} (List$<$ int $>$$^\wedge$ vertices)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespace_position_calculation_a92b23371ea8cc4df3beb145ffd1d40da}\label{namespace_position_calculation_a92b23371ea8cc4df3beb145ffd1d40da}} 
+\index{PositionCalculation@{PositionCalculation}!CalculatePos@{CalculatePos}}
+\index{CalculatePos@{CalculatePos}!PositionCalculation@{PositionCalculation}}
+\doxysubsubsection{\texorpdfstring{CalculatePos()}{CalculatePos()}}
+{\footnotesize\ttfamily int Position\+Calculation\+::\+Calculate\+Pos (\begin{DoxyParamCaption}\item[{int}]{position,  }\item[{int}]{offset,  }\item[{float}]{image\+Scale }\end{DoxyParamCaption})}
+
+
+
+Calculate point relative to image, for rendering. 
+
+Maps canvas space to image dimensions. \mbox{\Hypertarget{namespace_position_calculation_abac8caae3e9fbe5e020f056ea2c9e879}\label{namespace_position_calculation_abac8caae3e9fbe5e020f056ea2c9e879}} 
+\index{PositionCalculation@{PositionCalculation}!CalculatePosInverse@{CalculatePosInverse}}
+\index{CalculatePosInverse@{CalculatePosInverse}!PositionCalculation@{PositionCalculation}}
+\doxysubsubsection{\texorpdfstring{CalculatePosInverse()}{CalculatePosInverse()}}
+{\footnotesize\ttfamily int Position\+Calculation\+::\+Calculate\+Pos\+Inverse (\begin{DoxyParamCaption}\item[{int}]{position,  }\item[{int}]{offset,  }\item[{float}]{image\+Scale }\end{DoxyParamCaption})}
+
+
+
+Calculate point relative to image, for placement. 
+
+Maps image space to canvas space. \mbox{\Hypertarget{namespace_position_calculation_a45975dfd68049df14a3de8c686e8c4e6}\label{namespace_position_calculation_a45975dfd68049df14a3de8c686e8c4e6}} 
+\index{PositionCalculation@{PositionCalculation}!ReorderVertices@{ReorderVertices}}
+\index{ReorderVertices@{ReorderVertices}!PositionCalculation@{PositionCalculation}}
+\doxysubsubsection{\texorpdfstring{ReorderVertices()}{ReorderVertices()}}
+{\footnotesize\ttfamily List$<$ int $>$ Position\+Calculation\+::\+Reorder\+Vertices (\begin{DoxyParamCaption}\item[{List$<$ int $>$$^\wedge$}]{vertices }\end{DoxyParamCaption})}
+
+Rearranges vertices to allow correct rectangle drawing. 

@@ -1,0 +1,95 @@
+\hypertarget{class_image_file}{}\doxysection{Image\+File Class Reference}
+\label{class_image_file}\index{ImageFile@{ImageFile}}
+
+
+Class containing an image and its annotations.  
+
+
+
+
+{\ttfamily \#include $<$Image\+File.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_image_file_a2270e2e9b9a4ffcc25d6969925bcf01e}{replace\+Image}} (Image$^\wedge$ image\+To\+Load)
+\item 
+void \mbox{\hyperlink{class_image_file_a128edb760fcc9c1424036f07717990bf}{create\+Annotation\+File}} ()
+\item 
+void \mbox{\hyperlink{class_image_file_ac8d237602ed27eab0347ff3a9d3561f2}{check\+Compatibility}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Image $^\wedge$ \mbox{\hyperlink{class_image_file_a9f5323a8005f612dcbba5998e3ce1b1c}{image\+ID}}
+\item 
+String $^\wedge$ \mbox{\hyperlink{class_image_file_a7cfd1af04fc069c96b38562e59e32741}{display\+File\+Name}}
+\item 
+List$<$ \mbox{\hyperlink{class_annotation_file}{Annotation\+File}}$^\wedge$$>$ $^\wedge$ \mbox{\hyperlink{class_image_file_ac1cf7805ee1d63e8bf60fcb1dd1f3e32}{annotation\+Files}} = gcnew List$<$\mbox{\hyperlink{class_annotation_file}{Annotation\+File}}$^\wedge$$>$
+\item 
+Point $^\wedge$ \mbox{\hyperlink{class_image_file_ae2f339037e2fff14dc04e4272c3a27fd}{dimensions}}
+\item 
+Date\+Time $^\wedge$ \mbox{\hyperlink{class_image_file_a8bd9b81cae1d5cc86ee60a9400881857}{creation\+Date}} = gcnew Date\+Time
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class containing an image and its annotations. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_image_file_ac8d237602ed27eab0347ff3a9d3561f2}\label{class_image_file_ac8d237602ed27eab0347ff3a9d3561f2}} 
+\index{ImageFile@{ImageFile}!checkCompatibility@{checkCompatibility}}
+\index{checkCompatibility@{checkCompatibility}!ImageFile@{ImageFile}}
+\doxysubsubsection{\texorpdfstring{checkCompatibility()}{checkCompatibility()}}
+{\footnotesize\ttfamily void Image\+File\+::check\+Compatibility (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_image_file_a128edb760fcc9c1424036f07717990bf}\label{class_image_file_a128edb760fcc9c1424036f07717990bf}} 
+\index{ImageFile@{ImageFile}!createAnnotationFile@{createAnnotationFile}}
+\index{createAnnotationFile@{createAnnotationFile}!ImageFile@{ImageFile}}
+\doxysubsubsection{\texorpdfstring{createAnnotationFile()}{createAnnotationFile()}}
+{\footnotesize\ttfamily void Image\+File\+::create\+Annotation\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_image_file_a2270e2e9b9a4ffcc25d6969925bcf01e}\label{class_image_file_a2270e2e9b9a4ffcc25d6969925bcf01e}} 
+\index{ImageFile@{ImageFile}!replaceImage@{replaceImage}}
+\index{replaceImage@{replaceImage}!ImageFile@{ImageFile}}
+\doxysubsubsection{\texorpdfstring{replaceImage()}{replaceImage()}}
+{\footnotesize\ttfamily void Image\+File\+::replace\+Image (\begin{DoxyParamCaption}\item[{Image$^\wedge$}]{image\+To\+Load }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_image_file_ac1cf7805ee1d63e8bf60fcb1dd1f3e32}\label{class_image_file_ac1cf7805ee1d63e8bf60fcb1dd1f3e32}} 
+\index{ImageFile@{ImageFile}!annotationFiles@{annotationFiles}}
+\index{annotationFiles@{annotationFiles}!ImageFile@{ImageFile}}
+\doxysubsubsection{\texorpdfstring{annotationFiles}{annotationFiles}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_annotation_file}{Annotation\+File}}$^\wedge$$>$ $^\wedge$ Image\+File\+::annotation\+Files = gcnew List$<$\mbox{\hyperlink{class_annotation_file}{Annotation\+File}}$^\wedge$$>$}
+
+\mbox{\Hypertarget{class_image_file_a8bd9b81cae1d5cc86ee60a9400881857}\label{class_image_file_a8bd9b81cae1d5cc86ee60a9400881857}} 
+\index{ImageFile@{ImageFile}!creationDate@{creationDate}}
+\index{creationDate@{creationDate}!ImageFile@{ImageFile}}
+\doxysubsubsection{\texorpdfstring{creationDate}{creationDate}}
+{\footnotesize\ttfamily Date\+Time $^\wedge$ Image\+File\+::creation\+Date = gcnew Date\+Time}
+
+\mbox{\Hypertarget{class_image_file_ae2f339037e2fff14dc04e4272c3a27fd}\label{class_image_file_ae2f339037e2fff14dc04e4272c3a27fd}} 
+\index{ImageFile@{ImageFile}!dimensions@{dimensions}}
+\index{dimensions@{dimensions}!ImageFile@{ImageFile}}
+\doxysubsubsection{\texorpdfstring{dimensions}{dimensions}}
+{\footnotesize\ttfamily Point $^\wedge$ Image\+File\+::dimensions}
+
+\mbox{\Hypertarget{class_image_file_a7cfd1af04fc069c96b38562e59e32741}\label{class_image_file_a7cfd1af04fc069c96b38562e59e32741}} 
+\index{ImageFile@{ImageFile}!displayFileName@{displayFileName}}
+\index{displayFileName@{displayFileName}!ImageFile@{ImageFile}}
+\doxysubsubsection{\texorpdfstring{displayFileName}{displayFileName}}
+{\footnotesize\ttfamily String $^\wedge$ Image\+File\+::display\+File\+Name}
+
+\mbox{\Hypertarget{class_image_file_a9f5323a8005f612dcbba5998e3ce1b1c}\label{class_image_file_a9f5323a8005f612dcbba5998e3ce1b1c}} 
+\index{ImageFile@{ImageFile}!imageID@{imageID}}
+\index{imageID@{imageID}!ImageFile@{ImageFile}}
+\doxysubsubsection{\texorpdfstring{imageID}{imageID}}
+{\footnotesize\ttfamily Image $^\wedge$ Image\+File\+::image\+ID}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_image_file_8h}{Image\+File.\+h}}\end{DoxyCompactItemize}

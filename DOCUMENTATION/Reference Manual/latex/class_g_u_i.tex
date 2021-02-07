@@ -1,0 +1,207 @@
+\hypertarget{class_g_u_i}{}\doxysection{G\+UI Class Reference}
+\label{class_g_u_i}\index{GUI@{GUI}}
+
+
+{\ttfamily \#include $<$G\+U\+I.\+h$>$}
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_g_u_i_a11f68e945895183ab2034dccf7c02e68}{Load\+Image\+To\+List}} (\mbox{\hyperlink{class_image_file}{Image\+File}}$^\wedge$ file)
+\item 
+static void \mbox{\hyperlink{class_g_u_i_afe198aa0b71979a6aaf9460ff57cf10d}{Load\+Image\+To\+Canvas}} (int image\+Index)
+\item 
+static void \mbox{\hyperlink{class_g_u_i_a751c9f9a00edcf25c153690a0a661b52}{Create\+Label}} (String$^\wedge$ label\+Name)
+\item 
+static void \mbox{\hyperlink{class_g_u_i_a67c7546c68ccd1da49d0979d2a2d3439}{Draw\+Image}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_g_u_i_a11188e0418599b562ad3a958840550cf}{drawn\+Image}}
+\item 
+static List$<$ \mbox{\hyperlink{class_image_file}{Image\+File}}$^\wedge$$>$ $^\wedge$ \mbox{\hyperlink{class_g_u_i_aaa57182ff6fc934ab391a052d9fd705c}{loaded\+Images}} = gcnew List$<$\mbox{\hyperlink{class_image_file}{Image\+File}}$^\wedge$$>$
+\item 
+static List$<$ \mbox{\hyperlink{class_annotation}{Annotation}}$^\wedge$$>$ $^\wedge$ \mbox{\hyperlink{class_g_u_i_ae8ce7f1df69a92c4b81686cd1211b768}{annotations}} = gcnew List$<$\mbox{\hyperlink{class_annotation}{Annotation}}$^\wedge$$>$
+\item 
+static Point $^\wedge$ \mbox{\hyperlink{class_g_u_i_a4c4f52425c045a68cbce1f8abb9426c4}{mouse\+Down\+Location}} = gcnew Point
+\item 
+static int \mbox{\hyperlink{class_g_u_i_a43c0b0ab1f435f948712ab92fa8e42a8}{x\+Corner\+Selected}}
+\item 
+static int \mbox{\hyperlink{class_g_u_i_a14950dbe415f4d7e499820c5e4269836}{y\+Corner\+Selected}}
+\item 
+static int \mbox{\hyperlink{class_g_u_i_aae5ae36f499b4a77797ec38a5c0047de}{annotation\+To\+Resize}}
+\item 
+static List$<$ int $>$ $^\wedge$ \mbox{\hyperlink{class_g_u_i_a8cb6fd7aa7e6483f5b874dd597db5407}{image\+Indices}} = gcnew List$<$int$>$
+\item 
+static List$<$ int $>$ $^\wedge$ \mbox{\hyperlink{class_g_u_i_a97b87356bfed9a5a4906c37eef9be867}{label\+Indices}} = gcnew List$<$int$>$
+\item 
+static List$<$ String$^\wedge$$>$ $^\wedge$ \mbox{\hyperlink{class_g_u_i_a9ebc800da91c817d0c505309029ff9a6}{label\+Names}} = gcnew List$<$String$^\wedge$$>$
+\item 
+static String $^\wedge$ \mbox{\hyperlink{class_g_u_i_af99dd0438e09116abfdabd10026eb4c2}{working\+Folder\+Path}} = \char`\"{}\char`\"{}
+\item 
+static String $^\wedge$ \mbox{\hyperlink{class_g_u_i_ac1ea52738f6cb4f3cd5b4b9a0552de40}{label\+File}} = \char`\"{}\char`\"{}
+\item 
+static String $^\wedge$ \mbox{\hyperlink{class_g_u_i_a757161acdc7188c1e6431d6eeca7bddf}{image\+Search\+Term}} = \char`\"{}\char`\"{}
+\item 
+static String $^\wedge$ \mbox{\hyperlink{class_g_u_i_ad5832db5af5f9390061b2e61aa77e571}{label\+Search\+Term}} = \char`\"{}\char`\"{}
+\item 
+static Graphics $^\wedge$ \mbox{\hyperlink{class_g_u_i_a2289ac7c3581d95fffd76ed55f487097}{box\+Canvas}}
+\item 
+static String $^\wedge$ \mbox{\hyperlink{class_g_u_i_ab1a2ca75dcc03ef001da825069acc2f0}{annotation\+File\+Path}} = \char`\"{}\char`\"{}
+\item 
+static float \mbox{\hyperlink{class_g_u_i_a1dac1a03bfb6fc5c262705943ac162b9}{image\+Scale}}
+\item 
+static int \mbox{\hyperlink{class_g_u_i_a855dcc3e54af0bbc91c8a9ddef393a31}{x\+Offset}}
+\item 
+static int \mbox{\hyperlink{class_g_u_i_ae76bd16637170b9697781e3af7f077e9}{y\+Offset}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_g_u_i_a751c9f9a00edcf25c153690a0a661b52}\label{class_g_u_i_a751c9f9a00edcf25c153690a0a661b52}} 
+\index{GUI@{GUI}!CreateLabel@{CreateLabel}}
+\index{CreateLabel@{CreateLabel}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{CreateLabel()}{CreateLabel()}}
+{\footnotesize\ttfamily static void G\+U\+I\+::\+Create\+Label (\begin{DoxyParamCaption}\item[{String$^\wedge$}]{label\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_a67c7546c68ccd1da49d0979d2a2d3439}\label{class_g_u_i_a67c7546c68ccd1da49d0979d2a2d3439}} 
+\index{GUI@{GUI}!DrawImage@{DrawImage}}
+\index{DrawImage@{DrawImage}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{DrawImage()}{DrawImage()}}
+{\footnotesize\ttfamily static void G\+U\+I\+::\+Draw\+Image (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_afe198aa0b71979a6aaf9460ff57cf10d}\label{class_g_u_i_afe198aa0b71979a6aaf9460ff57cf10d}} 
+\index{GUI@{GUI}!LoadImageToCanvas@{LoadImageToCanvas}}
+\index{LoadImageToCanvas@{LoadImageToCanvas}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{LoadImageToCanvas()}{LoadImageToCanvas()}}
+{\footnotesize\ttfamily static void G\+U\+I\+::\+Load\+Image\+To\+Canvas (\begin{DoxyParamCaption}\item[{int}]{image\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_a11f68e945895183ab2034dccf7c02e68}\label{class_g_u_i_a11f68e945895183ab2034dccf7c02e68}} 
+\index{GUI@{GUI}!LoadImageToList@{LoadImageToList}}
+\index{LoadImageToList@{LoadImageToList}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{LoadImageToList()}{LoadImageToList()}}
+{\footnotesize\ttfamily static void G\+U\+I\+::\+Load\+Image\+To\+List (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_image_file}{Image\+File}}$^\wedge$}]{file }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_g_u_i_ab1a2ca75dcc03ef001da825069acc2f0}\label{class_g_u_i_ab1a2ca75dcc03ef001da825069acc2f0}} 
+\index{GUI@{GUI}!annotationFilePath@{annotationFilePath}}
+\index{annotationFilePath@{annotationFilePath}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{annotationFilePath}{annotationFilePath}}
+{\footnotesize\ttfamily String $^\wedge$ G\+U\+I\+::annotation\+File\+Path = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_ae8ce7f1df69a92c4b81686cd1211b768}\label{class_g_u_i_ae8ce7f1df69a92c4b81686cd1211b768}} 
+\index{GUI@{GUI}!annotations@{annotations}}
+\index{annotations@{annotations}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{annotations}{annotations}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_annotation}{Annotation}}$^\wedge$$>$ $^\wedge$ G\+U\+I\+::annotations = gcnew List$<$\mbox{\hyperlink{class_annotation}{Annotation}}$^\wedge$$>$\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_aae5ae36f499b4a77797ec38a5c0047de}\label{class_g_u_i_aae5ae36f499b4a77797ec38a5c0047de}} 
+\index{GUI@{GUI}!annotationToResize@{annotationToResize}}
+\index{annotationToResize@{annotationToResize}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{annotationToResize}{annotationToResize}}
+{\footnotesize\ttfamily int G\+U\+I\+::annotation\+To\+Resize\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_a2289ac7c3581d95fffd76ed55f487097}\label{class_g_u_i_a2289ac7c3581d95fffd76ed55f487097}} 
+\index{GUI@{GUI}!boxCanvas@{boxCanvas}}
+\index{boxCanvas@{boxCanvas}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{boxCanvas}{boxCanvas}}
+{\footnotesize\ttfamily Graphics $^\wedge$ G\+U\+I\+::box\+Canvas\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_a11188e0418599b562ad3a958840550cf}\label{class_g_u_i_a11188e0418599b562ad3a958840550cf}} 
+\index{GUI@{GUI}!drawnImage@{drawnImage}}
+\index{drawnImage@{drawnImage}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{drawnImage}{drawnImage}}
+{\footnotesize\ttfamily int G\+U\+I\+::drawn\+Image\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_a8cb6fd7aa7e6483f5b874dd597db5407}\label{class_g_u_i_a8cb6fd7aa7e6483f5b874dd597db5407}} 
+\index{GUI@{GUI}!imageIndices@{imageIndices}}
+\index{imageIndices@{imageIndices}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{imageIndices}{imageIndices}}
+{\footnotesize\ttfamily List$<$int$>$ $^\wedge$ G\+U\+I\+::image\+Indices = gcnew List$<$int$>$\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_a1dac1a03bfb6fc5c262705943ac162b9}\label{class_g_u_i_a1dac1a03bfb6fc5c262705943ac162b9}} 
+\index{GUI@{GUI}!imageScale@{imageScale}}
+\index{imageScale@{imageScale}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{imageScale}{imageScale}}
+{\footnotesize\ttfamily float G\+U\+I\+::image\+Scale\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_a757161acdc7188c1e6431d6eeca7bddf}\label{class_g_u_i_a757161acdc7188c1e6431d6eeca7bddf}} 
+\index{GUI@{GUI}!imageSearchTerm@{imageSearchTerm}}
+\index{imageSearchTerm@{imageSearchTerm}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{imageSearchTerm}{imageSearchTerm}}
+{\footnotesize\ttfamily String $^\wedge$ G\+U\+I\+::image\+Search\+Term = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_ac1ea52738f6cb4f3cd5b4b9a0552de40}\label{class_g_u_i_ac1ea52738f6cb4f3cd5b4b9a0552de40}} 
+\index{GUI@{GUI}!labelFile@{labelFile}}
+\index{labelFile@{labelFile}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{labelFile}{labelFile}}
+{\footnotesize\ttfamily String $^\wedge$ G\+U\+I\+::label\+File = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_a97b87356bfed9a5a4906c37eef9be867}\label{class_g_u_i_a97b87356bfed9a5a4906c37eef9be867}} 
+\index{GUI@{GUI}!labelIndices@{labelIndices}}
+\index{labelIndices@{labelIndices}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{labelIndices}{labelIndices}}
+{\footnotesize\ttfamily List$<$int$>$ $^\wedge$ G\+U\+I\+::label\+Indices = gcnew List$<$int$>$\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_a9ebc800da91c817d0c505309029ff9a6}\label{class_g_u_i_a9ebc800da91c817d0c505309029ff9a6}} 
+\index{GUI@{GUI}!labelNames@{labelNames}}
+\index{labelNames@{labelNames}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{labelNames}{labelNames}}
+{\footnotesize\ttfamily List$<$String$^\wedge$$>$ $^\wedge$ G\+U\+I\+::label\+Names = gcnew List$<$String$^\wedge$$>$\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_ad5832db5af5f9390061b2e61aa77e571}\label{class_g_u_i_ad5832db5af5f9390061b2e61aa77e571}} 
+\index{GUI@{GUI}!labelSearchTerm@{labelSearchTerm}}
+\index{labelSearchTerm@{labelSearchTerm}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{labelSearchTerm}{labelSearchTerm}}
+{\footnotesize\ttfamily String $^\wedge$ G\+U\+I\+::label\+Search\+Term = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_aaa57182ff6fc934ab391a052d9fd705c}\label{class_g_u_i_aaa57182ff6fc934ab391a052d9fd705c}} 
+\index{GUI@{GUI}!loadedImages@{loadedImages}}
+\index{loadedImages@{loadedImages}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{loadedImages}{loadedImages}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_image_file}{Image\+File}}$^\wedge$$>$ $^\wedge$ G\+U\+I\+::loaded\+Images = gcnew List$<$\mbox{\hyperlink{class_image_file}{Image\+File}}$^\wedge$$>$\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_a4c4f52425c045a68cbce1f8abb9426c4}\label{class_g_u_i_a4c4f52425c045a68cbce1f8abb9426c4}} 
+\index{GUI@{GUI}!mouseDownLocation@{mouseDownLocation}}
+\index{mouseDownLocation@{mouseDownLocation}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{mouseDownLocation}{mouseDownLocation}}
+{\footnotesize\ttfamily Point $^\wedge$ G\+U\+I\+::mouse\+Down\+Location = gcnew Point\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_af99dd0438e09116abfdabd10026eb4c2}\label{class_g_u_i_af99dd0438e09116abfdabd10026eb4c2}} 
+\index{GUI@{GUI}!workingFolderPath@{workingFolderPath}}
+\index{workingFolderPath@{workingFolderPath}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{workingFolderPath}{workingFolderPath}}
+{\footnotesize\ttfamily String $^\wedge$ G\+U\+I\+::working\+Folder\+Path = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_a43c0b0ab1f435f948712ab92fa8e42a8}\label{class_g_u_i_a43c0b0ab1f435f948712ab92fa8e42a8}} 
+\index{GUI@{GUI}!xCornerSelected@{xCornerSelected}}
+\index{xCornerSelected@{xCornerSelected}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{xCornerSelected}{xCornerSelected}}
+{\footnotesize\ttfamily int G\+U\+I\+::x\+Corner\+Selected\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_a855dcc3e54af0bbc91c8a9ddef393a31}\label{class_g_u_i_a855dcc3e54af0bbc91c8a9ddef393a31}} 
+\index{GUI@{GUI}!xOffset@{xOffset}}
+\index{xOffset@{xOffset}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{xOffset}{xOffset}}
+{\footnotesize\ttfamily int G\+U\+I\+::x\+Offset\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_a14950dbe415f4d7e499820c5e4269836}\label{class_g_u_i_a14950dbe415f4d7e499820c5e4269836}} 
+\index{GUI@{GUI}!yCornerSelected@{yCornerSelected}}
+\index{yCornerSelected@{yCornerSelected}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{yCornerSelected}{yCornerSelected}}
+{\footnotesize\ttfamily int G\+U\+I\+::y\+Corner\+Selected\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_u_i_ae76bd16637170b9697781e3af7f077e9}\label{class_g_u_i_ae76bd16637170b9697781e3af7f077e9}} 
+\index{GUI@{GUI}!yOffset@{yOffset}}
+\index{yOffset@{yOffset}!GUI@{GUI}}
+\doxysubsubsection{\texorpdfstring{yOffset}{yOffset}}
+{\footnotesize\ttfamily int G\+U\+I\+::y\+Offset\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_g_u_i_8h}{G\+U\+I.\+h}}\end{DoxyCompactItemize}

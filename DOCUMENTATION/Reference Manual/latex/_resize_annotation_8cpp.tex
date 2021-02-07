@@ -1,0 +1,43 @@
+\hypertarget{_resize_annotation_8cpp}{}\doxysection{Resize\+Annotation.\+cpp File Reference}
+\label{_resize_annotation_8cpp}\index{ResizeAnnotation.cpp@{ResizeAnnotation.cpp}}
+{\ttfamily \#include \char`\"{}G\+U\+I.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Position\+Calculation.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{_resize_annotation_8cpp_ae09a0b5c7d69814bba2a1f108b38d2f1}{Check\+In\+Range}} (int range, int target\+Pos, int mouse\+Pos)
+\item 
+void \mbox{\hyperlink{_resize_annotation_8cpp_af23b07d93823766feff6547da1b7a842}{Find\+Selected\+Annotation}} (Point$^\wedge$ mouse\+Position)
+\item 
+void \mbox{\hyperlink{_resize_annotation_8cpp_a2f65716b6de069eb14d0b24a9b82dc93}{Resize\+Annotation}} (Point$^\wedge$ mouse\+Position)
+\item 
+void \mbox{\hyperlink{_resize_annotation_8cpp_a34960819b729df67e72119233e756847}{Quick\+Resize\+Annotation}} (int annotation\+Index, int corner\+Index, int new\+Size)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_resize_annotation_8cpp_ae09a0b5c7d69814bba2a1f108b38d2f1}\label{_resize_annotation_8cpp_ae09a0b5c7d69814bba2a1f108b38d2f1}} 
+\index{ResizeAnnotation.cpp@{ResizeAnnotation.cpp}!CheckInRange@{CheckInRange}}
+\index{CheckInRange@{CheckInRange}!ResizeAnnotation.cpp@{ResizeAnnotation.cpp}}
+\doxysubsubsection{\texorpdfstring{CheckInRange()}{CheckInRange()}}
+{\footnotesize\ttfamily bool Check\+In\+Range (\begin{DoxyParamCaption}\item[{int}]{range,  }\item[{int}]{target\+Pos,  }\item[{int}]{mouse\+Pos }\end{DoxyParamCaption})}
+
+Checks a given value is within a given range of another value. \mbox{\Hypertarget{_resize_annotation_8cpp_af23b07d93823766feff6547da1b7a842}\label{_resize_annotation_8cpp_af23b07d93823766feff6547da1b7a842}} 
+\index{ResizeAnnotation.cpp@{ResizeAnnotation.cpp}!FindSelectedAnnotation@{FindSelectedAnnotation}}
+\index{FindSelectedAnnotation@{FindSelectedAnnotation}!ResizeAnnotation.cpp@{ResizeAnnotation.cpp}}
+\doxysubsubsection{\texorpdfstring{FindSelectedAnnotation()}{FindSelectedAnnotation()}}
+{\footnotesize\ttfamily void Find\+Selected\+Annotation (\begin{DoxyParamCaption}\item[{Point$^\wedge$}]{mouse\+Position }\end{DoxyParamCaption})}
+
+Finds any corner the mouse pointer is clicked on. \mbox{\Hypertarget{_resize_annotation_8cpp_a34960819b729df67e72119233e756847}\label{_resize_annotation_8cpp_a34960819b729df67e72119233e756847}} 
+\index{ResizeAnnotation.cpp@{ResizeAnnotation.cpp}!QuickResizeAnnotation@{QuickResizeAnnotation}}
+\index{QuickResizeAnnotation@{QuickResizeAnnotation}!ResizeAnnotation.cpp@{ResizeAnnotation.cpp}}
+\doxysubsubsection{\texorpdfstring{QuickResizeAnnotation()}{QuickResizeAnnotation()}}
+{\footnotesize\ttfamily void Quick\+Resize\+Annotation (\begin{DoxyParamCaption}\item[{int}]{annotation\+Index,  }\item[{int}]{corner\+Index,  }\item[{int}]{new\+Size }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_resize_annotation_8cpp_a2f65716b6de069eb14d0b24a9b82dc93}\label{_resize_annotation_8cpp_a2f65716b6de069eb14d0b24a9b82dc93}} 
+\index{ResizeAnnotation.cpp@{ResizeAnnotation.cpp}!ResizeAnnotation@{ResizeAnnotation}}
+\index{ResizeAnnotation@{ResizeAnnotation}!ResizeAnnotation.cpp@{ResizeAnnotation.cpp}}
+\doxysubsubsection{\texorpdfstring{ResizeAnnotation()}{ResizeAnnotation()}}
+{\footnotesize\ttfamily void Resize\+Annotation (\begin{DoxyParamCaption}\item[{Point$^\wedge$}]{mouse\+Position }\end{DoxyParamCaption})}
+
+Resizes an annotation to fit the current mouse position (called on mouse up) 

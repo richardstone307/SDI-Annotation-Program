@@ -1,0 +1,3 @@
+C:\Users\irich\Documents\SDI\SDI-Project\Debug\SDIProject.SRC.MainWindow.resources
+C:\Users\irich\Documents\SDI\SDI-Project\Debug\SDI-Project.vcxproj.GenerateResource.cache
+C:\Users\irich\Documents\SDI\SDI-Project\Debug\SDI-Project.vcxprojAssemblyReference.cache

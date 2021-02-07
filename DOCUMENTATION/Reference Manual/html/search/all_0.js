@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['add_0',['Add',['../class_linked_list_string.html#a58ebb38ca05600175c00cb8dd6ee5bf7',1,'LinkedListString']]],
+  ['addclass_1',['AddClass',['../class_s_d_i_master_1_1_main_window.html#ad2972981c04cc15eb10078e9a969e216',1,'SDIMaster::MainWindow']]],
+  ['addimage_2',['AddImage',['../class_s_d_i_master_1_1_main_window.html#a2ea9d23eea24a50c50fa816fa025b826',1,'SDIMaster::MainWindow']]],
+  ['annotation_3',['Annotation',['../class_annotation.html',1,'Annotation'],['../class_annotation.html#ad757e67158494d4d5e7e74b1e9591736',1,'Annotation::Annotation()']]],
+  ['annotation_2eh_4',['Annotation.h',['../_annotation_8h.html',1,'']]],
+  ['annotationfile_5',['AnnotationFile',['../class_annotation_file.html',1,'AnnotationFile'],['../class_annotation_file.html#a16969de63d0047aa69f6826045d9f590',1,'AnnotationFile::AnnotationFile()']]],
+  ['annotationfile_2eh_6',['AnnotationFile.h',['../_annotation_file_8h.html',1,'']]],
+  ['annotationfileid_7',['annotationFileID',['../class_annotation_file.html#a82ab2eaf84f26869a5d6772718b2ef29',1,'AnnotationFile']]],
+  ['annotationfilepath_8',['annotationFilePath',['../class_g_u_i.html#ab1a2ca75dcc03ef001da825069acc2f0',1,'GUI']]],
+  ['annotationfiles_9',['annotationFiles',['../class_image_file.html#ac1cf7805ee1d63e8bf60fcb1dd1f3e32',1,'ImageFile']]],
+  ['annotationid_10',['annotationID',['../class_annotation.html#aeeae04e5ec20824ccb4c1984c9c67858',1,'Annotation']]],
+  ['annotations_11',['annotations',['../class_g_u_i.html#ae8ce7f1df69a92c4b81686cd1211b768',1,'GUI']]],
+  ['annotationscircular_12',['annotationsCircular',['../class_annotation_file.html#a22ad1546467ffab9a7bebe7485b4b817',1,'AnnotationFile']]],
+  ['annotationspolygonal_13',['annotationsPolygonal',['../class_annotation_file.html#a9260fd2a139a1dc436eb7a2453b35d40',1,'AnnotationFile']]],
+  ['annotationtoresize_14',['annotationToResize',['../class_g_u_i.html#aae5ae36f499b4a77797ec38a5c0047de',1,'GUI']]],
+  ['at_15',['At',['../class_linked_list_string.html#a4510e0a56f8c172922220da2126ea715',1,'LinkedListString']]]
+];
